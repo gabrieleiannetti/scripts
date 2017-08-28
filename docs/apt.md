@@ -85,6 +85,7 @@ http_proxy=$URL ; apt install <package>       # temporary proxy
 ```bash
 apt-cache policy | grep -Ev Translation-..$   # list release information
 apt-cache policy <package>                    # list available package versions
+apt-cache madison <package>                   # displays available versions of a package in a tabular format
 apt install -t <release> <package>            # install package from target release
 apt install <package>=<version>               # install a specific version
 ```
